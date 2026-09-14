@@ -37,7 +37,8 @@ Mahasiswa mampu:
      - Install (npx expo install react-dom react-native-web)
      - npx expo start --web
      - Konfirmasi keberhasilan
-       <img src=image-3.png width="20%" >
+     
+       <img src=image-3.png width="30%" >
 
 3. Tugas Praktikum
    - Membuat aplikasi CV sederhana dengan React Native
@@ -48,4 +49,5 @@ Mahasiswa mampu:
    - Rencana menggapai cita-cita
 
 Konfirmasi Keberhasilan
-<img src = "image-4.png"  width="20%">
+
+<img src = "image-4.png"  width="30%">
