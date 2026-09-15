@@ -14,10 +14,12 @@ Mahasiswa mampu:
    - Memastikan instalasi Git bash
    - Cek instalasi Git bash (git --version)
    - Bukti verifikasi
+
      ![alt text](image.png)
    - Memastikan NodeJs dan NPM
      - Download dan install Node>js di https://nodejs.org/en/download
-   - Kofirmasi Node.JS dan NPM (node -v, npm -v)
+   - Kofirmasi NodeJS dan NPM (node -v, npm -v)
+  
      ![alt text](image-1.png)
 
 2. Membuat aplikasi / projek baru dengan React Native framework Expo Go
