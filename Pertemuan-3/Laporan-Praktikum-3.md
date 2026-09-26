@@ -20,7 +20,7 @@
 4. Buat fungsi App() kosong dengan return berisi View dan Text "Halo, Dunia!"
 5. Export default fungsi App
 ```
-<img src="image-1.png" width="50%">
+<img src="Bukti 1 Pertemuan3.png" width="50%">
 
 ---
 
@@ -37,10 +37,7 @@
    - Isi dengan data Pendidikan (Education)
 4. Buat konstanta SOCIAL (array) untuk tombol media sosial:
    - Setiap item memiliki: id, label, icon (emoji), url
-5. Konfirmasi: Data tersimpan, tidak ada error di terminal
 ```
-
-<img src="Bukti 1 Pertemuan3.png" width="50%">
 
 ---
 
