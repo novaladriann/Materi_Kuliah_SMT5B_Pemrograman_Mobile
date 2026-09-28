@@ -37,6 +37,6 @@ Mahasiswa Mampu:
 2. Membuat HomeScreen.js dan ProfileScreen.js di dalam folder screens
 3. Konfigurasi Tab di App.js dan Ubah isi App.js.
 
-<img src="Bukti Screen Record Pertemuan4 Langkah 2.gif" width="25%">
+<img src="Bukti Screen Record Pertemuan4 Langkah 3.gif" width="25%">
 
 
