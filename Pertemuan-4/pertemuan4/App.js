@@ -2,28 +2,22 @@ import React from "react";
 
 import { NavigationContainer } from "@react-navigation/native";
 
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-// Import Screen
+import HomeScreen from "./screens/HomeScreen";
 
-import Login from "./screens/Login";
+import ProfileScreen from "./screens/ProfileScreen";
 
-import Signup from "./screens/Signup";
-
-// Inisialisasi Stack
-
-const Stack = createNativeStackNavigator();
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
-        {/* Daftarkan layar-layar yang ada */}
+      <Tab.Navigator screenOptions={{ tabBarActiveTintColor: "#0284c7" }}>
+        <Tab.Screen name="Home" component={HomeScreen} />
 
-        <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
-
-        <Stack.Screen name="Signup" component={Signup} options={{ title: "Daftar Akun Baru" }} />
-      </Stack.Navigator>
+        <Tab.Screen name="Profile" component={ProfileScreen} />
+      </Tab.Navigator>
     </NavigationContainer>
   );
 }
