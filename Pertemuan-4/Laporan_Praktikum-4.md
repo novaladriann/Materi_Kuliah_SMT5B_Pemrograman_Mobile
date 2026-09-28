@@ -29,12 +29,14 @@ Mahasiswa Mampu:
 7. Jalankan perintah `npx expo start --web`
 8. Konfirmasi Bukti
 
-<img src="Bukti Screen Record Pertemuan4.gif" width="30%">
+<img src="Bukti Screen Record Pertemuan4 Langkah 2.gif" width="25%">
 
 ### Langkah 3: Membuat Bottom Tab Navigation
 
 1. Instalasi Pustaka Bottom Tabs `npm install @react-navigation/bottom-tabs`
 2. Membuat HomeScreen.js dan ProfileScreen.js di dalam folder screens
 3. Konfigurasi Tab di App.js dan Ubah isi App.js.
+
+<img src="Bukti Screen Record Pertemuan4 Langkah 2.gif" width="25%">
 
 
