@@ -29,4 +29,4 @@ Mahasiswa Mampu:
 7. Jalankan perintah `npx expo start --web`
 8. Konfirmasi Bukti
 
-<img src="Bukti Screen Record Pertemuan4.gif" width="50%">
+<img src="Bukti Screen Record Pertemuan4.gif" width="30%">
