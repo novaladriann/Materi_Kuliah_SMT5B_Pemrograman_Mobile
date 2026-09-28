@@ -38,6 +38,8 @@
 4. Buat konstanta SOCIAL (array) untuk tombol media sosial:
    - Setiap item memiliki: id, label, icon (emoji), url
 ```
+<img src="Bukti P3 Langkah 2.1.png" width="50%">
+<img src="Bukti P3 Langkah 2.2.png" width="50%">
 
 ---
 
@@ -56,6 +58,8 @@
    - Tampilkan dot bulat (timelineDot), lalu konten: role, institution, period
    - Tambahkan teks hint "Ketuk untuk detail" di bawah
 ```
+<img src="Bukti P3 Langkah 3.1.png" width="50%">
+<img src="Bukti P3 Langkah 3.2.png" width="50%">
 ---
 
 ## 📝 LANGKAH 4 — State Management dengan useState
@@ -77,6 +81,9 @@
    - Set sending ke true
    - Setelah 2000ms: reset form, set sending ke false, tampilkan Alert sukses
 ```
+<img src="Bukti P3 Langkah 4.1.png" width="50%">
+<img src="Bukti P3 Langkah 4.2.png" width="50%">
+<img src="Bukti P3 Langkah 4.3.png" width="50%">
 ---
 
 ## 📝 LANGKAH 5 — SafeAreaView, StatusBar & Header
@@ -92,6 +99,7 @@
      * Komponen Switch dengan value={openToWork} dan onValueChange={setOpenToWork}
      * Atur trackColor dan thumbColor pada Switch
 ```
+<img src="Bukti P3 Langkah 5.png" width="50%">
 
 ---
 
@@ -114,6 +122,9 @@
       - onPressIn: setPressing(true), onPressOut: setPressing(false)
       - Text berubah saat pressing: "Mengunduh..." atau "Download CV (PDF)"
 ```
+<img src="Bukti P3 Langkah 6.1.png" width="50%">
+<img src="Bukti P3 Langkah 6.2.png" width="50%">
+<img src="Bukti P3 Langkah 6.3.png" width="50%">
 ---
 
 ## 📝 LANGKAH 7 — FlatList (Daftar Skills)
@@ -130,6 +141,8 @@
       - scrollEnabled={false} (agar tidak konflik dengan ScrollView parent)
       - ItemSeparatorComponent: View dengan height 8
 ```
+<img src="Bukti P3 Langkah 7.1.png" width="50%">
+
 ---
 
 ## 📝 LANGKAH 8 — SectionList (Riwayat Pendidikan & Pengalaman)
@@ -151,6 +164,7 @@
    - FlatList: data={array} → list seragam
    - SectionList: sections={[{title, data}]} → list berkelompok
 ```
+<img src="Bukti P3 Langkah 8.png" width="50%">
 ---
 
 ## 📝 LANGKAH 9 — TextInput, Button & ActivityIndicator (Form Kontak)
@@ -172,7 +186,7 @@
       - Jika sending=true: View loadingRow berisi ActivityIndicator + Text
       - Jika sending=false: Button "Kirim Pesan" dengan onPress={handleSend}
 ```
-
+<img src="Bukti P3 Langkah 9.1.png" width="50%">
 ---
 
 ## 📝 LANGKAH 10 — Modal (Popup Detail Riwayat)
@@ -194,6 +208,7 @@
       - Text: selectedItem.desc
    c. Tambahkan TouchableOpacity "✕ Tutup" → onPress: setModalVisible(false)
 ```
+<img src="Bukti P3 Langkah 10.png" width="50%">
 
 ---
 
@@ -222,6 +237,10 @@
    - Performa lebih baik dibanding inline style
    - Mendukung pengecekan kesalahan properti (typo detection)
 ```
+<img src="Bukti P3 Langkah 11.1.png" width="50%">
+<img src="Bukti P3 Langkah 11.2.png" width="50%">
+<img src="Bukti P3 Langkah 11.3.png" width="50%">
+<img src="Bukti P3 Langkah 11.4png" width="50%">
 
 ---
 
