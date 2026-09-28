@@ -39,4 +39,9 @@ Mahasiswa Mampu:
 
 <img src="Bukti Screen Record Pertemuan4 Langkah 3.gif" width="25%">
 
+### Langkah 4: Membuat Drawer Navigation
 
+1. Instalasi Pustaka Drawer `npm install @react-navigation/drawer` . Pastikan juga plugin reanimated sudah terinstall dan dikonfigurasi di babel.config.js jika diperlukan
+2. Konfigurasi Drawer di App.js, lalu Ubah kembali file App.js untuk mencoba Drawer Navigation menggunakan layar Home dan Profile yang sudah dibuat sebelumnya
+
+<img src="Bukti Screen Record Pertemuan4 Langkah 4.gif" width="25%">
