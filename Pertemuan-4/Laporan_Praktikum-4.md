@@ -9,7 +9,7 @@ Mahasiswa Mampu:
 
 ## Alur Praktikum
 
-### Langkah 1: Inisialisasi Proyek dan instalasi Dependencies React Native
+### Inisialisasi Proyek dan instalasi Dependencies React Native
 
 1. Buka terminal atau cmd
 2. Ubah directori ke Folder Pertemuan 4( cd "Materi_Kuliah_SMT5B_Pemrograman_Mobile\Pertemuan-4")
@@ -18,7 +18,7 @@ Mahasiswa Mampu:
 5. Install core navigation library (npm install @react-navigation/native)
 6. Install dependensi pendukung (wajib untuk Expo) (npx expo install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated)
 
-### Langkah 2: Membuat Stack Navigation
+### Praktikum 1: Membuat Stack Navigation
 
 1. Instalasi Pustaka Stack : `npm install @react-navigation/native-stack`
 2. Membuat File Layar (Screens)
@@ -29,19 +29,30 @@ Mahasiswa Mampu:
 7. Jalankan perintah `npx expo start --web`
 8. Konfirmasi Bukti
 
+
+<img src="Bukti Penerapan Kode Program Praktikum Stack Navigation-LoginJs.png" width="50%">.
+<img src="Bukti Penerapan Kode Program Praktikum Stack Navigation-SignUpJs.png" width="50%">.
+<img src="Bukti Penerapan Kode Program Praktikum Stack Navigation-AppJs.png" width="50%">.
+
 <img src="Bukti Screen Record Pertemuan4 Langkah 2.gif" width="25%">
 
-### Langkah 3: Membuat Bottom Tab Navigation
+### Praktikum 2: Membuat Bottom Tab Navigation
 
 1. Instalasi Pustaka Bottom Tabs `npm install @react-navigation/bottom-tabs`
 2. Membuat HomeScreen.js dan ProfileScreen.js di dalam folder screens
 3. Konfigurasi Tab di App.js dan Ubah isi App.js.
 
+<img src="Bukti Penerapan Kode Program Praktikum Bottom Tab Nav-HomeScreenJs.png" width="50%">.
+<img src="Bukti Penerapan Kode Program Praktikum Bottom Tab Nav-ProfileScreenJs.png" width="50%">.
+<img src="Bukti Penerapan Kode Program Praktikum Bottom Tab Nav-AppJs.png" width="50%">.
+
 <img src="Bukti Screen Record Pertemuan4 Langkah 3.gif" width="25%">
 
-### Langkah 4: Membuat Drawer Navigation
+### Praktikum 3: Membuat Drawer Navigation
 
 1. Instalasi Pustaka Drawer `npm install @react-navigation/drawer` . Pastikan juga plugin reanimated sudah terinstall dan dikonfigurasi di babel.config.js jika diperlukan
 2. Konfigurasi Drawer di App.js, lalu Ubah kembali file App.js untuk mencoba Drawer Navigation menggunakan layar Home dan Profile yang sudah dibuat sebelumnya
+
+<img src="Bukti Penerapan Kode Program Praktikum Drawer Nav-AppJs.png" width="50%">.
 
 <img src="Bukti Screen Record Pertemuan4 Langkah 4.gif" width="25%">
